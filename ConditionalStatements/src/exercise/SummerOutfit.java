@@ -11,36 +11,36 @@ public class SummerOutfit {
         String outfit = "";
         String shoes = "";
 
-        if ("Morning".equals(dayTime)) {
+        if (dayTime.equals("Morning")) {
             if (degrees >= 10 && degrees <= 18) {
                 outfit = "Sweatshirt";
                 shoes = "Sneakers";
             } else if (degrees > 18 && degrees <= 24) {
                 outfit = "Shirt";
                 shoes = "Moccasins";
-            } else if(degrees >= 15) {
-                outfit = "T-shirt";
+            } else {
+                outfit = "T-Shirt";
                 shoes = "Sandals";
             }
-        } else if ("Afternoon".equals(dayTime)) {
+        } else if (dayTime.equals("Afternoon")) {
             if (degrees >= 10 && degrees <= 18) {
                 outfit = "Shirt";
                 shoes = "Moccasins";
             } else if (degrees > 18 && degrees <= 24) {
                 outfit = "T-Shirt";
                 shoes = "Sandals";
-            } else if(degrees >= 15) {
+            } else {
                 outfit = "Swim Suit";
                 shoes = "Barefoot";
             }
-        } else if ("Evening".equals(dayTime)) {
+        } else if (dayTime.equals("Evening")) {
             if (degrees >= 10 && degrees <= 18) {
                 outfit = "Shirt";
                 shoes = "Moccasins";
             } else if (degrees > 18 && degrees <= 24) {
                 outfit = "Shirt";
                 shoes = "Moccasins";
-            } else if(degrees >= 15) {
+            } else {
                 outfit = "Shirt";
                 shoes = "Moccasins";
             }
