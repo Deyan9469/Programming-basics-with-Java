@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConditionalStatements/ConditionalStatements.iml" filepath="$PROJECT_DIR$/ConditionalStatements/ConditionalStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForLoop/ForLoop.iml" filepath="$PROJECT_DIR$/ForLoop/ForLoop.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programming-basics-with-Java.iml" filepath="$PROJECT_DIR$/Programming-basics-with-Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Statements/Statements.iml" filepath="$PROJECT_DIR$/Statements/Statements.iml" />
     </modules>

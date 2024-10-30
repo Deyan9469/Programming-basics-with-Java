@@ -35,7 +35,7 @@ public class SkiTrip {
                 priceDiscount = price * 0.80;
             }
         }
-        
+
         double totalPrice = 0.00;
         if ("positive".equals(score)){
             totalPrice = priceDiscount + (priceDiscount * 0.25);
